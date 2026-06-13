@@ -34,7 +34,7 @@
             {
                 "type": "UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "arenaWallColorSceneView",
-                "value": "{\"m_Value\":{\"r\":1.0,\"g\":0.9215686321258545,\"b\":0.01568627543747425,\"a\":1.0}}"
+                "value": "{\"m_Value\":{\"r\":0.8120561838150024,\"g\":1.0,\"b\":0.0156862735748291,\"a\":1.0}}"
             },
             {
                 "type": "Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.Abstractions, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60",
