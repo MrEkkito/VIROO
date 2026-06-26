@@ -5,42 +5,53 @@ using TMPro;
 
 public class TerminalSelector : MonoBehaviour
 {
+    [Header("Botones")]
     public Transform contenedorBotones;
     public GameObject botonPrefab;
 
-    public List<Spawner> spawners;
-    public List<Elemento> elementos;
+    [Header("Spawners")]
+    public List<Spawner> spawners = new List<Spawner>();
 
-    [Header("UI Description Reference")]
-    public TMP_Text textoDescripcion;
+    [Header("Elementos disponibles")]
+    public List<Elemento> elementos = new List<Elemento>();
+
+    [Header("Tablones donde mostrar la información")]
+    public List<TablonInformacion> tablones = new List<TablonInformacion>();
 
     private void Start()
     {
-        if (textoDescripcion != null)
-        {
-            textoDescripcion.text = "Selecciona un elemento para ver su información.";
-        }
         CrearBotones();
     }
 
     private void CrearBotones()
     {
+        foreach (Transform hijo in contenedorBotones)
+        {
+            Destroy(hijo.gameObject);
+        }
+
         foreach (Elemento elemento in elementos)
         {
             GameObject boton = Instantiate(botonPrefab, contenedorBotones);
 
-            boton.GetComponentInChildren<TMP_Text>().text = elemento.nombre;
+            TMP_Text texto = boton.GetComponentInChildren<TMP_Text>();
+            if (texto != null)
+                texto.text = elemento.nombre;
 
-            boton.GetComponent<Button>().onClick.AddListener(() =>
+            Button button = boton.GetComponent<Button>();
+
+            button.onClick.AddListener(() =>
             {
                 foreach (Spawner spawner in spawners)
                 {
-                    spawner.Spawnear(elemento.prefab);
+                    if (spawner != null)
+                        spawner.Spawnear(elemento.prefab);
                 }
 
-                if (textoDescripcion != null)
+                foreach (TablonInformacion tablon in tablones)
                 {
-                    textoDescripcion.text = elemento.descripcion;
+                    if (tablon != null)
+                        tablon.Mostrar(elemento);
                 }
             });
         }

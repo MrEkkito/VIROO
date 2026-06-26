@@ -1,0 +1,107 @@
+[33mcommit a88d8af0b5e0c6068a12fe27963698f02eef2230[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: MrEkkito <rg21057@ues.edu.sv>
+Date:   Sun Jun 21 23:06:41 2026 -0600
+
+    Actualización del proyecto
+
+ Assets/AllSkyFree.meta                             |       8 [32m+[m
+ Assets/AllSkyFree/Cartoon Base BlueSky.meta        |       9 [32m+[m
+ .../Day_BlueSky_Nothing Equirect.mat               |      66 [32m+[m
+ .../Day_BlueSky_Nothing Equirect.mat.meta          |      14 [32m+[m
+ .../Cartoon Base BlueSky/Day_BlueSky_Nothing.mat   |      59 [32m+[m
+ .../Day_BlueSky_Nothing.mat.meta                   |      14 [32m+[m
+ .../Cartoon Base BlueSky/Day_BlueSky_Nothing.unity |     308 [32m+[m
+ .../Day_BlueSky_Nothing.unity.meta                 |      13 [32m+[m
+ .../Day_BlueSky_NothingSettings.lighting           |      63 [32m+[m
+ .../Day_BlueSky_NothingSettings.lighting.meta      |      15 [32m+[m
+ .../Sky_Day_BlueSky_Equirect.png                   |     Bin [31m0[m -> [32m4063261[m bytes
+ .../Sky_Day_BlueSky_Equirect.png.meta              |     107 [32m+[m
+ .../Sky_Day_BlueSky_Nothing_Cam_0_Front+Z.png      |     Bin [31m0[m -> [32m198413[m bytes
+ .../Sky_Day_BlueSky_Nothing_Cam_0_Front+Z.png.meta |     111 [32m+[m
+ .../Sky_Day_BlueSky_Nothing_Cam_1_Back-Z.png       |     Bin [31m0[m -> [32m159076[m bytes
+ .../Sky_Day_BlueSky_Nothing_Cam_1_Back-Z.png.meta  |     111 [32m+[m
+ .../Sky_Day_BlueSky_Nothing_Cam_2_Left+X.png       |     Bin [31m0[m -> [32m183600[m bytes
+ .../Sky_Day_BlueSky_Nothing_Cam_2_Left+X.png.meta  |     111 [32m+[m
+ .../Sky_Day_BlueSky_Nothing_Cam_3_Right-X.png      |     Bin [31m0[m -> [32m184644[m bytes
+ .../Sky_Day_BlueSky_Nothing_Cam_3_Right-X.png.meta |     111 [32m+[m
+ .../Sky_Day_BlueSky_Nothing_Cam_4_Up+Y.png         |     Bin [31m0[m -> [32m82766[m bytes
+ .../Sky_Day_BlueSky_Nothing_Cam_4_Up+Y.png.meta    |     111 [32m+[m
+ .../Sky_Day_BlueSky_Nothing_Cam_5_Down-Y.png       |     Bin [31m0[m -> [32m367968[m bytes
+ .../Sky_Day_BlueSky_Nothing_Cam_5_Down-Y.png.meta  |     111 [32m+[m
+ Assets/AllSkyFree/Cartoon Base NightSky.meta       |       9 [32m+[m
+ .../Cartoon Base NightSky Equirect.mat             |      91 [32m+[m
+ .../Cartoon Base NightSky Equirect.mat.meta        |      16 [32m+[m
+ .../Cartoon Base NightSky Equirect.png             |     Bin [31m0[m -> [32m3064352[m bytes
+ .../Cartoon Base NightSky Equirect.png.meta        |     107 [32m+[m
+ .../Cartoon Base NightSky.mat                      |      54 [32m+[m
+ .../Cartoon Base NightSky.mat.meta                 |      16 [32m+[m
+ .../Cartoon Base NightSky.unity                    |     284 [32m+[m
+ .../Cartoon Base NightSky.unity.meta               |      15 [32m+[m
+ .../Cartoon Base NightSkySettings.lighting         |      63 [32m+[m
+ .../Cartoon Base NightSkySettings.lighting.meta    |      15 [32m+[m
+ .../Cartoon Base NightSky_Cam_0_Front+Z.png        |     Bin [31m0[m -> [32m377110[m bytes
+ .../Cartoon Base NightSky_Cam_0_Front+Z.png.meta   |     106 [32m+[m
+ .../Cartoon Base NightSky_Cam_1_Back-Z.png         |     Bin [31m0[m -> [32m352301[m bytes
+ .../Cartoon Base NightSky_Cam_1_Back-Z.png.meta    |     106 [32m+[m
+ .../Cartoon Base NightSky_Cam_2_Left+X.png         |     Bin [31m0[m -> [32m371871[m bytes
+ .../Cartoon Base NightSky_Cam_2_Left+X.png.meta    |     106 [32m+[m
+ .../Cartoon Base NightSky_Cam_3_Right-X.png        |     Bin [31m0[m -> [32m378464[m bytes
+ .../Cartoon Base NightSky_Cam_3_Right-X.png.meta   |     106 [32m+[m
+ .../Cartoon Base NightSky_Cam_4_Up+Y.png           |     Bin [31m0[m -> [32m254789[m bytes
+ .../Cartoon Base NightSky_Cam_4_Up+Y.png.meta      |     106 [32m+[m
+ .../Cartoon Base NightSky_Cam_5_Down-Y.png         |     Bin [31m0[m -> [32m427629[m bytes
+ .../Cartoon Base NightSky_Cam_5_Down-Y.png.meta    |     106 [32m+[m
+ Assets/AllSkyFree/Cold Night.meta                  |       9 [32m+[m
+ .../AllSkyFree/Cold Night/Cold Night Equirect.mat  |     115 [32m+[m
+ .../Cold Night/Cold Night Equirect.mat.meta        |      16 [32m+[m
+ .../AllSkyFree/Cold Night/Cold Night Equirect.png  |     Bin [31m0[m -> [32m43417291[m bytes
+ .../Cold Night/Cold Night Equirect.png.meta        |     107 [32m+[m
+ Assets/AllSkyFree/Cold Night/Cold Night.mat        |      54 [32m+[m
+ Assets/AllSkyFree/Cold Night/Cold Night.mat.meta   |      16 [32m+[m
+ Assets/AllSkyFree/Cold Night/Cold Night.unity      |     284 [32m+[m
+ Assets/AllSkyFree/Cold Night/Cold Night.unity.meta |      15 [32m+[m
+ .../Cold Night/Cold NightSettings.lighting         |      63 [32m+[m
+ .../Cold Night/Cold NightSettings.lighting.meta    |      15 [32m+[m
+ .../Cold Night/Cold Night__Cam_0_Front+Z.png       |     Bin [31m0[m -> [32m463966[m bytes
+ .../Cold Night/Cold Night__Cam_0_Front+Z.png.meta  |     106 [32m+[m
+ .../Cold Night/Cold Night__Cam_1_Back-Z.png        |     Bin [31m0[m -> [32m119113[m bytes
+ .../Cold Night/Cold Night__Cam_1_Back-Z.png.meta   |     106 [32m+[m
+ .../Cold Night/Cold Night__Cam_2_Left+X.png        |     Bin [31m0[m -> [32m203680[m bytes
+ .../Cold Night/Cold Night__Cam_2_Left+X.png.meta   |     106 [32m+[m
+ .../Cold Night/Cold Night__Cam_3_Right-X.png       |     Bin [31m0[m -> [32m243723[m bytes
+ .../Cold Night/Cold Night__Cam_3_Right-X.png.meta  |     106 [32m+[m
+ .../Cold Night/Cold Night__Cam_4_Up+Y.png          |     Bin [31m0[m -> [32m293243[m bytes
+ .../Cold Night/Cold Night__Cam_4_Up+Y.png.meta     |     106 [32m+[m
+ .../Cold Night/Cold Night__Cam_5_Down-Y.png        |     Bin [31m0[m -> [32m44455[m bytes
+ .../Cold Night/Cold Night__Cam_5_Down-Y.png.meta   |     106 [32m+[m
+ Assets/AllSkyFree/Cold Sunset.meta                 |       9 [32m+[m
+ .../Cold Sunset/Cold Sunset Equirect.mat           |     115 [32m+[m
+ .../Cold Sunset/Cold Sunset Equirect.mat.meta      |      16 [32m+[m
+ .../Cold Sunset/Cold Sunset Equirect.png           |     Bin [31m0[m -> [32m79869056[m bytes
+ .../Cold Sunset/Cold Sunset Equirect.png.meta      |     107 [32m+[m
+ Assets/AllSkyFree/Cold Sunset/Cold Sunset.mat      |      54 [32m+[m
+ Assets/AllSkyFree/Cold Sunset/Cold Sunset.mat.meta |      16 [32m+[m
+ Assets/AllSkyFree/Cold Sunset/Cold Sunset.unity    |     284 [32m+[m
+ .../AllSkyFree/Cold Sunset/Cold Sunset.unity.meta  |      15 [32m+[m
+ .../Cold Sunset/Cold Sunset__Cam_0_Front+Z.png     |     Bin [31m0[m -> [32m1503253[m bytes
+ .../Cold Sunset__Cam_0_Front+Z.png.meta            |     106 [32m+[m
+ .../Cold Sunset/Cold Sunset__Cam_1_Back-Z.png      |     Bin [31m0[m -> [32m1394593[m bytes
+ .../Cold Sunset/Cold Sunset__Cam_1_Back-Z.png.meta |     106 [32m+[m
+ .../Cold Sunset/Cold Sunset__Cam_2_Left+X.png      |     Bin [31m0[m -> [32m1830730[m bytes
+ .../Cold Sunset/Cold Sunset__Cam_2_Left+X.png.meta |     106 [32m+[m
+ .../Cold Sunset/Cold Sunset__Cam_3_Right-X.png     |     Bin [31m0[m -> [32m1632332[m bytes
+ .../Cold Sunset__Cam_3_Right-X.png.meta            |     106 [32m+[m
+ .../Cold Sunset/Cold Sunset__Cam_4_Up+Y.png        |     Bin [31m0[m -> [32m3458452[m bytes
+ .../Cold Sunset/Cold Sunset__Cam_4_Up+Y.png.meta   |     106 [32m+[m
+ .../Cold Sunset/Cold Sunset__Cam_5_Down-Y.png      |     Bin [31m0[m -> [32m403503[m bytes
+ .../Cold Sunset/Cold Sunset__Cam_5_Down-Y.png.meta |     106 [32m+[m
+ Assets/AllSkyFree/Deep Dusk.meta                   |       9 [32m+[m
+ Assets/AllSkyFree/Deep Dusk/Deep Dusk Equirect.mat |     115 [32m+[m
+ .../Deep Dusk/Deep Dusk Equirect.mat.meta          |      16 [32m+[m
+ Assets/AllSkyFree/Deep Dusk/Deep Dusk Equirect.png |     Bin [31m0[m -> [32m50754568[m bytes
+ .../Deep Dusk/Deep Dusk Equirect.png.meta          |     107 [32m+[m
+ Assets/AllSkyFree/Deep Dusk/Deep Dusk.mat          |      54 [32m+[m
+ Assets/AllSkyFree/Deep Dusk/Deep Dusk.mat.meta     |      16 [32m+[m
+ Assets/AllSkyFree/Deep Dusk/Deep Dusk.unity        |     284 [32m+[m
+ Assets/AllSkyFree/Deep Dusk/Deep Dusk.unity.meta   |      15 [32m+[m
+ .../Deep Dusk/Deep DuskSettings.lighting           |      

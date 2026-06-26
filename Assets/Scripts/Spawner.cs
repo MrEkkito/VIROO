@@ -13,12 +13,12 @@ public class Spawner : MonoBehaviour
             Destroy(objetoActual);
         }
 
-        Vector3 posicionSpawn = transform.position + transform.up * alturaOffset;
+        Vector3 posicionSpawn = transform.position + Vector3.up * alturaOffset;
 
         objetoActual = Instantiate(
             prefab,
             posicionSpawn,
-            transform.rotation
+            prefab.transform.rotation
         );
     }
 }
